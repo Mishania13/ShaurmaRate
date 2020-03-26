@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ShaurmaTVC-->
+        <!--My Favorite Shawa-->
         <scene sceneID="Lfg-eE-6mv">
             <objects>
                 <tableViewController id="Ynr-KF-7gm" customClass="ShaurmaTVC" customModule="ShaurmaRate" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                             <outlet property="delegate" destination="Ynr-KF-7gm" id="mHa-bC-FtA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Pzr-X4-TP6"/>
+                    <navigationItem key="navigationItem" title="My Favorite Shawa" id="Pzr-X4-TP6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qD3-SH-4kv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,6 +43,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rxl-ol-JGJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="26"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
