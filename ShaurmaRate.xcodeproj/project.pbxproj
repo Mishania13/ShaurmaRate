@@ -13,6 +13,7 @@
 		D641FE99242BC4B5006243BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D641FE98242BC4B5006243BD /* Assets.xcassets */; };
 		D641FE9C242BC4B5006243BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641FE9A242BC4B5006243BD /* LaunchScreen.storyboard */; };
 		D641FEA4242BC918006243BD /* ShaurmaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FEA3242BC918006243BD /* ShaurmaTVC.swift */; };
+		D641FEA6242D2CDA006243BD /* CellForShawa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FEA5242D2CDA006243BD /* CellForShawa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D641FE9B242BC4B5006243BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D641FE9D242BC4B5006243BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D641FEA3242BC918006243BD /* ShaurmaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaurmaTVC.swift; sourceTree = SOURCE_ROOT; };
+		D641FEA5242D2CDA006243BD /* CellForShawa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForShawa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D641FE8F242BC4B0006243BD /* AppDelegate.swift */,
 				D641FE91242BC4B0006243BD /* SceneDelegate.swift */,
 				D641FEA3242BC918006243BD /* ShaurmaTVC.swift */,
+				D641FEA5242D2CDA006243BD /* CellForShawa.swift */,
 				D641FE95242BC4B0006243BD /* Main.storyboard */,
 				D641FE98242BC4B5006243BD /* Assets.xcassets */,
 				D641FE9A242BC4B5006243BD /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D641FEA6242D2CDA006243BD /* CellForShawa.swift in Sources */,
 				D641FEA4242BC918006243BD /* ShaurmaTVC.swift in Sources */,
 				D641FE90242BC4B0006243BD /* AppDelegate.swift in Sources */,
 				D641FE92242BC4B0006243BD /* SceneDelegate.swift in Sources */,

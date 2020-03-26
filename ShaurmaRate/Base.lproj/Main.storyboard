@@ -10,18 +10,74 @@
         <scene sceneID="Lfg-eE-6mv">
             <objects>
                 <tableViewController id="Ynr-KF-7gm" customClass="ShaurmaTVC" customModule="ShaurmaRate" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RQy-DL-2YP">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" id="RQy-DL-2YP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="jcc-HG-Yy3">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="jcc-HG-Yy3" customClass="CellForShawa" customModule="ShaurmaRate" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="85"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jcc-HG-Yy3" id="ndi-kj-5Ag">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CpK-3q-1Gk">
+                                            <rect key="frame" x="15" y="10" width="65" height="65"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="65" id="i8S-mN-Dea"/>
+                                                <constraint firstAttribute="width" constant="65" id="zWy-yW-gFK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shawa Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqc-Ry-vx2">
+                                            <rect key="frame" x="95" y="9" width="299" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="r6F-BI-Asg"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svn-Ba-g8f">
+                                            <rect key="frame" x="95" y="35" width="315" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="dwE-cR-3y9"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmw-gd-Yis">
+                                            <rect key="frame" x="95" y="54" width="299" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="4EP-aH-g2V"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="CpK-3q-1Gk" firstAttribute="centerY" secondItem="ndi-kj-5Ag" secondAttribute="centerY" id="8b2-mg-Hx7"/>
+                                        <constraint firstItem="CpK-3q-1Gk" firstAttribute="leading" secondItem="ndi-kj-5Ag" secondAttribute="leading" constant="15" id="ANf-bz-MRR"/>
+                                        <constraint firstItem="Eqc-Ry-vx2" firstAttribute="top" secondItem="ndi-kj-5Ag" secondAttribute="top" constant="9" id="Jm7-DD-QAe"/>
+                                        <constraint firstItem="Eqc-Ry-vx2" firstAttribute="leading" secondItem="CpK-3q-1Gk" secondAttribute="trailing" constant="15" id="WMO-tF-1NP"/>
+                                        <constraint firstAttribute="bottom" secondItem="Bmw-gd-Yis" secondAttribute="bottom" constant="10" id="aDo-ht-Nc1"/>
+                                        <constraint firstItem="Bmw-gd-Yis" firstAttribute="top" secondItem="Svn-Ba-g8f" secondAttribute="bottom" constant="1" id="e0X-g9-OR8"/>
+                                        <constraint firstItem="Bmw-gd-Yis" firstAttribute="leading" secondItem="CpK-3q-1Gk" secondAttribute="trailing" constant="15" id="gXp-1n-OmV"/>
+                                        <constraint firstAttribute="trailing" secondItem="Bmw-gd-Yis" secondAttribute="trailing" constant="20" id="iIS-xp-UOv"/>
+                                        <constraint firstAttribute="trailing" secondItem="Eqc-Ry-vx2" secondAttribute="trailing" constant="20" id="sD9-Qp-MKu"/>
+                                        <constraint firstItem="Svn-Ba-g8f" firstAttribute="leading" secondItem="CpK-3q-1Gk" secondAttribute="trailing" constant="15" id="xOl-Y6-HeF"/>
+                                        <constraint firstItem="Svn-Ba-g8f" firstAttribute="trailing" secondItem="ndi-kj-5Ag" secondAttribute="trailingMargin" constant="16" id="yac-VT-dvV"/>
+                                        <constraint firstItem="Svn-Ba-g8f" firstAttribute="top" secondItem="Eqc-Ry-vx2" secondAttribute="bottom" constant="5" id="z1A-Qc-W4v"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imageOfPlace" destination="CpK-3q-1Gk" id="fZD-Xb-abE"/>
+                                    <outlet property="locationLable" destination="Svn-Ba-g8f" id="IQd-KQ-eEQ"/>
+                                    <outlet property="shawaName" destination="Eqc-Ry-vx2" id="x0B-o1-Yv2"/>
+                                    <outlet property="shawaPrice" destination="Bmw-gd-Yis" id="bPQ-Mk-VOE"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
