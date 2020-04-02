@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89341A5813ABF0D6A41096B0 /* Pods_ShaurmaRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B632AEDA7DFEE1E5DF6B6D6 /* Pods_ShaurmaRate.framework */; };
+		D61A8D7C242F82C60095095A /* NewShawa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A8D7B242F82C60095095A /* NewShawa.swift */; };
+		D61A8D7E243097340095095A /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A8D7D243097340095095A /* DoneButton.swift */; };
+		D61A8D8024322C6B0095095A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A8D7F24322C6B0095095A /* StorageManager.swift */; };
 		D641FE90242BC4B0006243BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FE8F242BC4B0006243BD /* AppDelegate.swift */; };
 		D641FE92242BC4B0006243BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FE91242BC4B0006243BD /* SceneDelegate.swift */; };
 		D641FE97242BC4B0006243BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641FE95242BC4B0006243BD /* Main.storyboard */; };
@@ -14,9 +18,18 @@
 		D641FE9C242BC4B5006243BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641FE9A242BC4B5006243BD /* LaunchScreen.storyboard */; };
 		D641FEA4242BC918006243BD /* ShaurmaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FEA3242BC918006243BD /* ShaurmaTVC.swift */; };
 		D641FEA6242D2CDA006243BD /* CellForShawa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FEA5242D2CDA006243BD /* CellForShawa.swift */; };
+		D641FEA8242F54DF006243BD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FEA7242F54DF006243BD /* PlaceModel.swift */; };
+		D64E8DA32434D30E00C0CDAE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E8DA22434D30E00C0CDAE /* RatingControl.swift */; };
+		D64E8DA5243627B900C0CDAE /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E8DA4243627B900C0CDAE /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B632AEDA7DFEE1E5DF6B6D6 /* Pods_ShaurmaRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaurmaRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9B9B9AFBD95C1043460C75 /* Pods-ShaurmaRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaurmaRate.release.xcconfig"; path = "Target Support Files/Pods-ShaurmaRate/Pods-ShaurmaRate.release.xcconfig"; sourceTree = "<group>"; };
+		CA9885FE9716C10928ECD08F /* Pods-ShaurmaRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaurmaRate.debug.xcconfig"; path = "Target Support Files/Pods-ShaurmaRate/Pods-ShaurmaRate.debug.xcconfig"; sourceTree = "<group>"; };
+		D61A8D7B242F82C60095095A /* NewShawa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewShawa.swift; sourceTree = SOURCE_ROOT; };
+		D61A8D7D243097340095095A /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
+		D61A8D7F24322C6B0095095A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		D641FE8C242BC4B0006243BD /* ShaurmaRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaurmaRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D641FE8F242BC4B0006243BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D641FE91242BC4B0006243BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		D641FE9D242BC4B5006243BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D641FEA3242BC918006243BD /* ShaurmaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaurmaTVC.swift; sourceTree = SOURCE_ROOT; };
 		D641FEA5242D2CDA006243BD /* CellForShawa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForShawa.swift; sourceTree = "<group>"; };
+		D641FEA7242F54DF006243BD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		D64E8DA22434D30E00C0CDAE /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		D64E8DA4243627B900C0CDAE /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89341A5813ABF0D6A41096B0 /* Pods_ShaurmaRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D28F595EB55FC8439EB020BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9885FE9716C10928ECD08F /* Pods-ShaurmaRate.debug.xcconfig */,
+				4F9B9B9AFBD95C1043460C75 /* Pods-ShaurmaRate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D641FE83242BC4B0006243BD = {
 			isa = PBXGroup;
 			children = (
 				D641FE8E242BC4B0006243BD /* ShaurmaRate */,
 				D641FE8D242BC4B0006243BD /* Products */,
+				D28F595EB55FC8439EB020BE /* Pods */,
+				EA3F951640A388D67056B532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +86,30 @@
 		D641FE8E242BC4B0006243BD /* ShaurmaRate */ = {
 			isa = PBXGroup;
 			children = (
+				D61A8D7B242F82C60095095A /* NewShawa.swift */,
+				D61A8D7D243097340095095A /* DoneButton.swift */,
 				D641FE8F242BC4B0006243BD /* AppDelegate.swift */,
 				D641FE91242BC4B0006243BD /* SceneDelegate.swift */,
 				D641FEA3242BC918006243BD /* ShaurmaTVC.swift */,
+				D641FEA7242F54DF006243BD /* PlaceModel.swift */,
+				D61A8D7F24322C6B0095095A /* StorageManager.swift */,
 				D641FEA5242D2CDA006243BD /* CellForShawa.swift */,
+				D64E8DA22434D30E00C0CDAE /* RatingControl.swift */,
 				D641FE95242BC4B0006243BD /* Main.storyboard */,
+				D64E8DA4243627B900C0CDAE /* MapVC.swift */,
 				D641FE98242BC4B5006243BD /* Assets.xcassets */,
 				D641FE9A242BC4B5006243BD /* LaunchScreen.storyboard */,
 				D641FE9D242BC4B5006243BD /* Info.plist */,
 			);
 			path = ShaurmaRate;
+			sourceTree = "<group>";
+		};
+		EA3F951640A388D67056B532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B632AEDA7DFEE1E5DF6B6D6 /* Pods_ShaurmaRate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D641FEA0242BC4B5006243BD /* Build configuration list for PBXNativeTarget "ShaurmaRate" */;
 			buildPhases = (
+				D46421DD83A0D24B2306E460 /* [CP] Check Pods Manifest.lock */,
 				D641FE88242BC4B0006243BD /* Sources */,
 				D641FE89242BC4B0006243BD /* Frameworks */,
 				D641FE8A242BC4B0006243BD /* Resources */,
+				7017BA49073F37FBBC3DFEF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +180,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7017BA49073F37FBBC3DFEF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShaurmaRate/Pods-ShaurmaRate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShaurmaRate/Pods-ShaurmaRate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShaurmaRate/Pods-ShaurmaRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46421DD83A0D24B2306E460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShaurmaRate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D641FE88242BC4B0006243BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,8 +229,14 @@
 			files = (
 				D641FEA6242D2CDA006243BD /* CellForShawa.swift in Sources */,
 				D641FEA4242BC918006243BD /* ShaurmaTVC.swift in Sources */,
+				D641FEA8242F54DF006243BD /* PlaceModel.swift in Sources */,
 				D641FE90242BC4B0006243BD /* AppDelegate.swift in Sources */,
+				D64E8DA32434D30E00C0CDAE /* RatingControl.swift in Sources */,
+				D64E8DA5243627B900C0CDAE /* MapVC.swift in Sources */,
+				D61A8D7E243097340095095A /* DoneButton.swift in Sources */,
 				D641FE92242BC4B0006243BD /* SceneDelegate.swift in Sources */,
+				D61A8D7C242F82C60095095A /* NewShawa.swift in Sources */,
+				D61A8D8024322C6B0095095A /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +378,7 @@
 		};
 		D641FEA1242BC4B5006243BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9885FE9716C10928ECD08F /* Pods-ShaurmaRate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +397,7 @@
 		};
 		D641FEA2242BC4B5006243BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9B9B9AFBD95C1043460C75 /* Pods-ShaurmaRate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
