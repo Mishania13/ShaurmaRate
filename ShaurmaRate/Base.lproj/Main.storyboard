@@ -198,7 +198,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current addres" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WiO-oY-Bo0">
                                 <rect key="frame" x="20" y="90" width="374" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="lPq-j0-z2U"/>
                                     <constraint firstAttribute="height" constant="36" id="mQw-kw-vKi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -222,6 +221,7 @@
                         <constraints>
                             <constraint firstItem="Bz8-5W-0kf" firstAttribute="trailing" secondItem="wYU-h0-fYo" secondAttribute="trailing" id="2Fe-xP-HVH"/>
                             <constraint firstItem="wip-NR-zCv" firstAttribute="top" secondItem="wYU-h0-fYo" secondAttribute="top" constant="40" id="2g0-uF-fhX"/>
+                            <constraint firstItem="WiO-oY-Bo0" firstAttribute="leading" secondItem="wYU-h0-fYo" secondAttribute="leading" constant="20" id="GYk-4Z-IN6"/>
                             <constraint firstItem="wYU-h0-fYo" firstAttribute="bottom" secondItem="Ngm-4b-mrb" secondAttribute="bottom" constant="20" id="Iwc-Gv-B28"/>
                             <constraint firstItem="wQj-M0-hXF" firstAttribute="centerX" secondItem="wPb-QP-hV6" secondAttribute="centerX" id="YHD-cO-eGd"/>
                             <constraint firstItem="fsc-hb-7bb" firstAttribute="centerX" secondItem="Bz8-5W-0kf" secondAttribute="centerX" id="Yqr-sp-GTJ"/>
@@ -234,6 +234,7 @@
                             <constraint firstItem="WiO-oY-Bo0" firstAttribute="centerX" secondItem="wPb-QP-hV6" secondAttribute="centerX" id="nC0-AG-3gm"/>
                             <constraint firstAttribute="bottom" secondItem="Bz8-5W-0kf" secondAttribute="bottom" id="poh-ni-DaX"/>
                             <constraint firstItem="Bz8-5W-0kf" firstAttribute="top" secondItem="wPb-QP-hV6" secondAttribute="top" id="wf1-Oi-6Hb"/>
+                            <constraint firstItem="wYU-h0-fYo" firstAttribute="trailing" secondItem="WiO-oY-Bo0" secondAttribute="trailing" constant="20" id="ydL-Dt-ATE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wYU-h0-fYo"/>
                     </view>

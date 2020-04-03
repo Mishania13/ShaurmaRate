@@ -77,6 +77,7 @@ class NewShawa: UITableViewController {
             else {return}
         
         mapVC.incomeSegueIdentifire = identifier
+        mapVC.mapVCDelegate = self
         
         if identifier == "showShawa" {
         mapVC.place.name = nameTxtField.text!
@@ -181,4 +182,12 @@ extension NewShawa: UIImagePickerControllerDelegate, UINavigationControllerDeleg
         
         dismiss(animated: true)
     }
+}
+
+extension NewShawa: MapVCDelegate {
+    func getAddress(_ addres: String?) {
+        locationTxtField.text = addres
+    }
+    
+    
 }

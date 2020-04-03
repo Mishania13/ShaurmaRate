@@ -10,9 +10,17 @@ import UIKit
 import MapKit
 import CoreLocation
 
+protocol MapVCDelegate {
+    func getAddress (_ addres: String?)
+}
+
+
+
 class MapVC: UIViewController {
     
+    var mapVCDelegate: MapVCDelegate?
     var place = Place()
+    
     let annotationIdentifire = "annotationIdentifire"
     let locationManager = CLLocationManager()
     let regionInMeters = 1000.0
@@ -36,6 +44,8 @@ class MapVC: UIViewController {
         dismiss(animated: true)
     }
     @IBAction func doneButtonPressed () {
+        mapVCDelegate?.getAddress(addresLable.text)
+        dismiss(animated: true)
     }
     
     private func setupMapView() {
