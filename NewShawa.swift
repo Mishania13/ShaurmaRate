@@ -46,6 +46,7 @@ class NewShawa: UITableViewController {
         if indexPath.row == 0 {
             let cameraIcon = #imageLiteral(resourceName: "camera")
             let albumIcon = #imageLiteral(resourceName: "photo")
+            
             let actionSheet = UIAlertController(title: nil, message: nil,
                                                 preferredStyle: .actionSheet)
             let camera = UIAlertAction(title: "Camera", style: .default) { _ in
@@ -68,22 +69,26 @@ class NewShawa: UITableViewController {
         }
     }
     
-    //MARK: - Navi
+    //MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier != "showMap" {
-            return
-        }
+        guard let identifier = segue.identifier,
+            let mapVC = segue.destination as? MapVC
+            else {return}
         
-        let mapVC = segue.destination as! MapVC
-        mapVC.place = currentPlace
+        mapVC.incomeSegueIdentifire = identifier
+        
+        if identifier == "showShawa" {
+        mapVC.place.name = nameTxtField.text!
+        mapVC.place.location = locationTxtField.text
+        mapVC.place.price = priceTxtField.text
+        mapVC.place.imgData = imgOfShawa.image?.pngData()
+        }
     }
     
     func savePlace () {
         
-        var image: UIImage?
-        
-        if imageIsChange { image = imgOfShawa.image} else {image = #imageLiteral(resourceName: "imagePlaceholder")}
+        let image =  imageIsChange ? imgOfShawa.image : #imageLiteral(resourceName: "imagePlaceholder")
         
         let imageData = image?.pngData()
         
